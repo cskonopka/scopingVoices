@@ -1,12 +1,12 @@
 # scopingVoices
-#### *scopingVoices* is an artist tool used for extracting audio and video content from the Periscope API in real-time using Go and FFmpeg. 
+### *scopingVoices* is an artist tool used for extracting audio and video content from the Periscope API in real-time using Go and FFmpeg. 
 
 <p align="center">
   <img width="35%" height="35%" src="https://storage.googleapis.com/gopherizeme.appspot.com/gophers/023d0f8dfc16d75c30b7409a8bd9883a0fd678b7.png"/>
 </p>
 
 ## Why? 
-#### The goal behind the project was to create custom utility for extracting audio and video content from around the world using [Periscope](https://www.pscp.tv). Once the content is collected, it can be used as a sampling source for esoteric music compositions and video art.
+### The goal behind the project was to create custom utility for extracting audio and video content from around the world using [Periscope](https://www.pscp.tv). Once the content is collected, it can be used as a sampling source for esoteric music compositions and video art.
 
 ## Requirements
 
