@@ -1,6 +1,10 @@
 # scopingVoices
 *scopingVoices* is an artist tool used for extracting audio and video content from the Periscope API in real-time using Go and FFmpeg.
 
+<p align="center">
+  <img width="35%" height="35%" src="https://storage.googleapis.com/gopherizeme.appspot.com/gophers/023d0f8dfc16d75c30b7409a8bd9883a0fd678b7.png"/>
+</p>
+
 ### Requirements
 ``` go
 go run github.com/ChimeraCoder/anaconda
