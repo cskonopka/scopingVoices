@@ -1,22 +1,42 @@
 # scopingVoices
-*scopingVoices* is an artist tool used for extracting audio and video content from the Periscope API in real-time using Go and FFmpeg.
+#### *scopingVoices* is an artist tool used for extracting audio and video content from the Periscope API in real-time using Go and FFmpeg. The goal behind the project was to create custom utility that can extract audio and video content from around the world for artistic endeavors using [Periscope](https://www.pscp.tv). 
 
 <p align="center">
   <img width="35%" height="35%" src="https://storage.googleapis.com/gopherizeme.appspot.com/gophers/023d0f8dfc16d75c30b7409a8bd9883a0fd678b7.png"/>
 </p>
 
-### Requirements
+## Why? 
+#### 
+
+## Requirements
+
+1. Install the following libraries below.
 ``` go
 go run github.com/ChimeraCoder/anaconda
 go run github.com/codeskyblue/go-sh
 ```
+2. Generate [Twitter Access Tokens](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html)
 
-## How to run 
+3. Add the Twitter crendentials to your *~/.bash_profile* 
+	- Open the Terminal and open *~/.bash_profile* using *nano ~/.bash_profile*
+	- Add the Twitter crendentials in the pattern specified below.
+
+	``` bash
+	export TWITTER_CUSTOMERKEY="the-twitter-credential"
+	export TWITTER_CUSTOMERSECRET="the-twitter-credential"
+	export TWITTER_ACCESSTOKEN="the-twitter-credential"
+	export TWITTER_ACCESSTOKENSECRET="the-twitter-credential"
+	```
+
+	- Close and save the file.
+	- Type ```source ~/.bash_profile``` to update the file's contents.
+
+## Run the program
 ``` go
 go run SV-v1.go
 ```
 
-### How it works
+### How does the program work?
 
 Main structs
 ``` go
@@ -76,7 +96,6 @@ for _, tweet := range search_result.Statuses {
 }
 ```
 
-
 Split the "selectedfiles" string array, extracting the Periscope "broadcast_id" from each element. Add the "broadcast_id" to a new string array named "newURLS".
 ``` go
 // Split strings and add the broadcast_id to the new url
@@ -86,7 +105,6 @@ for i := 0; i < len(selectedfiles); i++ {
 	newURLS = append(newURLS, "https://api.periscope.tv/api/v2/accessVideoPublic?broadcast_id="+mo[1])
 }
 ```
-
 
 Create a GET Request for each element within the "newURLS" string array. Use the *Periscope* struct to decode the JSON to receive the *lhls_url* of live and replay streams. Add "active" streams to a new string array named "collectedHLS".
 ``` go
