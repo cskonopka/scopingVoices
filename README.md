@@ -1,9 +1,5 @@
 # scopingVoices
-<<<<<<< HEAD
-*scopingVoices* is a creative tool for extracting audio and video content from the Periscope API in real-time using Go, FFmpeg and the Twitter-api.
-=======
 #### *scopingVoices* is an artist tool used for extracting audio and video content from the Periscope API in real-time using Go and FFmpeg. 
->>>>>>> ce6c84c857d0f7bc459bda544a978cea23a4ada0
 
 <p align="center">
   <img width="35%" height="35%" src="https://storage.googleapis.com/gopherizeme.appspot.com/gophers/023d0f8dfc16d75c30b7409a8bd9883a0fd678b7.png"/>
