@@ -36,3 +36,6 @@ Run the application and add an output directory.
 ```go
 ./scopingVoices.go location/of/output/directory
 ```
+
+## Example
+![gif]()
