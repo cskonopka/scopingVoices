@@ -37,5 +37,3 @@ Run the application and add an output directory.
 ./scopingVoices.go location/of/output/directory
 ```
 
-## Example
-![gif](https://mega.nz/#!Ox422aqL!xjlgTOSN4B17UxZ9wW3pDkJ9tQqe106Oiuc_EHGSKFc)
