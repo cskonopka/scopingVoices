@@ -6,7 +6,7 @@
 </p>
 
 ## Why? 
-### The goal behind the project was to create custom utility for extracting audio and video content from around the world using [Periscope](https://www.pscp.tv). Once collected, the sampling sources are available for esoteric music compositions and video art.
+The goal behind the project was to create custom utility for extracting audio and video content from around the world using [Periscope](https://www.pscp.tv). Once collected, the sampling sources are available for esoteric music compositions and video art.
 
 
 ## Twitter Setup
