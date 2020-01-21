@@ -1,2 +1,7 @@
-00-assets
-01-experiments
+00-internal
+00-internal/00-assets
+00-internal/01-experiments
+00-internal/02-typora
+00-internal/03-images
+00-internal/04-premiere
+00-internal/05-render
