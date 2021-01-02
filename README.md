@@ -12,9 +12,9 @@ The goal behind the project was to create custom utility for extracting audio an
 ## Twitter Setup
 1. Generate [Twitter Access Tokens](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html)
 
-2. Add the Twitter crendentials to your *~/.bash_profile* 
+2. Add the Twitter credentials to your *~/.bash_profile* 
 	- Open the Terminal and open *~/.bash_profile* using *nano ~/.bash_profile*
-	- Add the Twitter crendentials in the pattern specified below.
+	- Add the Twitter credentials in the pattern specified below.
 
 	``` bash
 	export TWITTER_CUSTOMERKEY="the-twitter-credential"
